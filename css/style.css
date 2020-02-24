@@ -307,3 +307,19 @@ img {
     order: 2;
   }
 }
+
+.headphones {
+  animation: bounce 3s infinite ease-in-out;
+}
+
+@keyframes bounce {
+  0% {
+    transform: translateY(-5px);
+  }
+  50% {
+    transform: translateY(10px);
+  }
+  100% {
+    transform: translateY(-5px);
+  }
+}
